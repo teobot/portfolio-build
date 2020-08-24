@@ -1,38 +1,190 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+html,
+body,
+.App,
+#root {
+  width: 100% !important;
+  height: 100% !important;
+  position: relative;
+}
+
+#navbar {
+  position: fixed;
+  width: 100%;
+  height: 92px;
+  top: 0px;
+  z-index: 99;
+}
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 250ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 250ms ease-in;
+}
+
+.nav-link {
+  font-size: calc(16px + 0.1vw);
+}
+
+.titillium-text {
+  font-family: "Titillium Web", sans-serif;
+}
+
+.poppins-text {
+  font-family: "Poppins", sans-serif;
+}
+
+.lead-text {
+  font-size: calc(16px + 0.2vw);
+  font-weight: 300;
+}
+
+.main-text {
+  font-size: calc(32px + 5vw);
+  font-weight: 300;
+  line-height: 1.2;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sub-text {
+  font-size: calc(28px + 2vw);
+  font-weight: 300;
+  line-height: 1.2;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.badge-gutter {
+  padding: 0px 15px 0px 0px;
+  margin: 8px 0px;
+  position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.age-text {
+  background: white;
+  background: -webkit-linear-gradient(
+    right,
+    orange,
+    gold,
+    lightgreen,
+    cyan,
+    lightblue,
+    violet
+  );
+  background: -o-linear-gradient(
+    right,
+    orange,
+    gold,
+    lightgreen,
+    cyan,
+    lightblue,
+    violet
+  );
+  background: -moz-linear-gradient(
+    right,
+    orange,
+    gold,
+    lightgreen,
+    cyan,
+    lightblue,
+    violet
+  );
+  background: linear-gradient(
+    to right,
+    orange,
+    gold,
+    lightgreen,
+    cyan,
+    lightblue,
+    violet
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: monospace;
+  font-size: calc(10px + 0.2vw);
+  text-align: center;
+  margin: auto 0px;
+}
+
+.position-rel {
+  position: relative !important;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-flow: row;
 }
 
-.App-link {
-  color: #61dafb;
+.border-faint {
+  border-bottom: 1px solid dimgrey !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#custom-card-column {
+  padding: 0px 22px 0px 22px !important;
+  max-height: 90%;
+  width: 100%;
+  overflow-y: overlay;
+  overflow-x: hidden;
+}
+
+.custom-card-container {
+  padding-top: 62px;
+  
+}
+
+.link-css:hover {
+  fill: var(--pink);
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.nav-hover-dark:hover {
+  color: white !important;
+}
+
+.nav-hover-light:hover {
+  color: black !important;
+}
+
+.selected-dark {
+  color: white !important;
+  font-weight: 600 !important;
+}
+
+.selected-light {
+  color: black !important;
+  font-weight: 600 !important;
+}
+
+.neu-card {
+  height: 150px;
+  width: 150px;
+  border-radius: 25px;
+  margin: 65px;
+  background: #343a40;
+  box-shadow: 20px 20px 45px #2c3136, -20px -20px 45px #3c434a;
+}
+
+.neu-card svg {
+  height: 25%;
+  width: 25%;
+}
+
+.container-holder {
+  padding-top: 50px;
+  max-height: 90%;
+  width: 100%;
+  overflow-y: visible;
+  overflow-x: hidden;
 }
