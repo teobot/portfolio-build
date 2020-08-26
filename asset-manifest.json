@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio-build/static/css/main.775e9e3e.chunk.css",
-    "main.js": "/portfolio-build/static/js/main.11e6e179.chunk.js",
-    "main.js.map": "/portfolio-build/static/js/main.11e6e179.chunk.js.map",
+    "main.css": "/portfolio-build/static/css/main.68dae0bc.chunk.css",
+    "main.js": "/portfolio-build/static/js/main.37c817ad.chunk.js",
+    "main.js.map": "/portfolio-build/static/js/main.37c817ad.chunk.js.map",
     "runtime-main.js": "/portfolio-build/static/js/runtime-main.93e55659.js",
     "runtime-main.js.map": "/portfolio-build/static/js/runtime-main.93e55659.js.map",
     "static/css/2.11829350.chunk.css": "/portfolio-build/static/css/2.11829350.chunk.css",
-    "static/js/2.6a34e641.chunk.js": "/portfolio-build/static/js/2.6a34e641.chunk.js",
-    "static/js/2.6a34e641.chunk.js.map": "/portfolio-build/static/js/2.6a34e641.chunk.js.map",
+    "static/js/2.6bfa00a4.chunk.js": "/portfolio-build/static/js/2.6bfa00a4.chunk.js",
+    "static/js/2.6bfa00a4.chunk.js.map": "/portfolio-build/static/js/2.6bfa00a4.chunk.js.map",
     "index.html": "/portfolio-build/index.html",
-    "precache-manifest.acb905ddf8b485709c64eb38d114d452.js": "/portfolio-build/precache-manifest.acb905ddf8b485709c64eb38d114d452.js",
+    "precache-manifest.84c33fa5e6e603fcece09a5d49300c8b.js": "/portfolio-build/precache-manifest.84c33fa5e6e603fcece09a5d49300c8b.js",
     "service-worker.js": "/portfolio-build/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/portfolio-build/static/css/2.11829350.chunk.css.map",
-    "static/css/main.775e9e3e.chunk.css.map": "/portfolio-build/static/css/main.775e9e3e.chunk.css.map",
-    "static/js/2.6a34e641.chunk.js.LICENSE.txt": "/portfolio-build/static/js/2.6a34e641.chunk.js.LICENSE.txt",
+    "static/css/main.68dae0bc.chunk.css.map": "/portfolio-build/static/css/main.68dae0bc.chunk.css.map",
+    "static/js/2.6bfa00a4.chunk.js.LICENSE.txt": "/portfolio-build/static/js/2.6bfa00a4.chunk.js.LICENSE.txt",
     "static/media/sig-invert.png": "/portfolio-build/static/media/sig-invert.7ab93d00.png",
-    "static/media/sig.png": "/portfolio-build/static/media/sig.63b2568e.png"
+    "static/media/sig.png": "/portfolio-build/static/media/sig.63b2568e.png",
+    "static/media/valveindex.png": "/portfolio-build/static/media/valveindex.af210ce6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.93e55659.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.6a34e641.chunk.js",
-    "static/css/main.775e9e3e.chunk.css",
-    "static/js/main.11e6e179.chunk.js"
+    "static/js/2.6bfa00a4.chunk.js",
+    "static/css/main.68dae0bc.chunk.css",
+    "static/js/main.37c817ad.chunk.js"
   ]
 }
